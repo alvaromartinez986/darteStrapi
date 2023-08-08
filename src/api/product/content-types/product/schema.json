@@ -58,6 +58,9 @@
       "relation": "manyToMany",
       "target": "api::sub-category.sub-category",
       "inversedBy": "products"
+    },
+    "whatsappUrl": {
+      "type": "string"
     }
   }
 }
