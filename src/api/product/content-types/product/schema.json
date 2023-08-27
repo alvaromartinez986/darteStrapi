@@ -59,6 +59,9 @@
       "target": "api::sub-category.sub-category",
       "inversedBy": "products"
     },
+    "order": {
+      "type": "integer"
+    },
     "whatsappUrl": {
       "type": "string"
     }
