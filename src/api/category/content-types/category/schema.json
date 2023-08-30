@@ -40,6 +40,9 @@
       "relation": "manyToMany",
       "target": "api::sub-category.sub-category",
       "inversedBy": "categories"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }

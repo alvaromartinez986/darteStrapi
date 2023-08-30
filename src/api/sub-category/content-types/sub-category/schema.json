@@ -4,7 +4,8 @@
   "info": {
     "singularName": "sub-category",
     "pluralName": "sub-categories",
-    "displayName": "subCategory"
+    "displayName": "subCategory",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -25,6 +26,9 @@
       "relation": "manyToMany",
       "target": "api::category.category",
       "mappedBy": "sub_categories"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }
